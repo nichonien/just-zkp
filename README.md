@@ -1,6 +1,8 @@
 ## A repository with resources on Zero-Knowledge Proofs. <br><br>
 
-<center><img src="./images/zkp-abstract-pic.jpg" alt="zero-knowledge proof (zkp) abstract pic" width="500" height="500"></center>
+<div align="center">
+  <img src="./images/zkp-abstract-pic.jpg" alt="zero-knowledge proof (zkp) abstract pic" width="500" height="500">
+</div>
 
 Zero-knowledge proofs represent cryptographic techniques enabling one party (the "prover") to persuade another party (the "verifier") of possessing certain knowledge or accomplishing a specific task without divulging the specifics. It's akin to demonstrating eligibility to enter a bar by presenting an ID without disclosing one's birthdate.
 
