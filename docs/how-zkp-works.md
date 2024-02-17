@@ -37,8 +37,17 @@ Understanding zero-knowledge proofs (ZKPs) may pose a challenge initially, but e
             Verifier->>Prover: Proof rejected.
         end
 ```
-While the specific methodologies of ZKPs vary across schemes, the fundamental principle remains consistent.
-The illustrative depiction simplifies the understanding process, yet real-world ZKPs entail intricate mathematical operations.
+Explanation:
 
-This analogy serves as one approach; alternate metaphors can also aid in grasping ZKPs.
-I trust this visual representation aids in comprehending the fundamental workings of ZKPs!
+- The diagram shows two participants: Prover and Verifier.
+- The arrow Prover->>Verifier: Secret knowledge (hidden) indicates the prover possesses secret knowledge but keeps it hidden.
+- The verifier sends a series of challenges (riddles) represented by Verifier->>Prover: Challenge 1 (riddle).
+- The prover responds with answers derived from the secret knowledge, shown by Prover->>Verifier: Answer 1 based on secret knowledge.
+- This cycle of challenges and answers repeats until the final challenge.
+- If all answers are consistent with the secret knowledge, the verifier sends Verifier->>Prover: Proof verified!, indicating successful verification.
+- If any answer contradicts the secret knowledge, the verifier rejects the proof with Verifier->>Prover: Proof rejected..
+
+This is a simplified representation, and specific ZKP schemes may involve more complex interactions and verification processes.
+
+While the specific methodologies of ZKPs vary across schemes, the fundamental principle remains consistent.
+The illustrative depiction simplifies the understanding process, yet real-world ZKPs entail intricate mathematical operations and may involve more complex interactions and verification processes.
