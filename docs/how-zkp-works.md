@@ -47,7 +47,5 @@ Explanation:
 - If all answers are consistent with the secret knowledge, the verifier sends Verifier->>Prover: Proof verified!, indicating successful verification.
 - If any answer contradicts the secret knowledge, the verifier rejects the proof with Verifier->>Prover: Proof rejected..
 
-This is a simplified representation, and specific ZKP schemes may involve more complex interactions and verification processes.
-
 While the specific methodologies of ZKPs vary across schemes, the fundamental principle remains consistent.
 The illustrative depiction simplifies the understanding process, yet real-world ZKPs entail intricate mathematical operations and may involve more complex interactions and verification processes.
